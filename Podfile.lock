@@ -1,0 +1,20 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.0.0)
+  - SAMKeychain
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: ad66b6ab2970834e57eb9688c2ee213954eabac7
+
+COCOAPODS: 1.9.3

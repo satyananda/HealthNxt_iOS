@@ -3,10 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23453AEF24EA88CB0035018F /* HNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AEE24EA88CB0035018F /* HNLoginViewController.swift */; };
+		23453AF124EA89120035018F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23453AF024EA89120035018F /* Login.storyboard */; };
+		23453BAC24EBF9CA0035018F /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF624EBF9CA0035018F /* CustomBundle.swift */; };
+		23453BAD24EBF9CA0035018F /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF624EBF9CA0035018F /* CustomBundle.swift */; };
+		23453BAE24EBF9CA0035018F /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF624EBF9CA0035018F /* CustomBundle.swift */; };
+		23453BAF24EBF9CA0035018F /* NSBundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF724EBF9CA0035018F /* NSBundle+Language.swift */; };
+		23453BB024EBF9CA0035018F /* NSBundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF724EBF9CA0035018F /* NSBundle+Language.swift */; };
+		23453BB124EBF9CA0035018F /* NSBundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF724EBF9CA0035018F /* NSBundle+Language.swift */; };
+		23453BB224EBF9CA0035018F /* HAAPIMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF924EBF9CA0035018F /* HAAPIMethods.swift */; };
+		23453BB324EBF9CA0035018F /* HAAPIMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF924EBF9CA0035018F /* HAAPIMethods.swift */; };
+		23453BB424EBF9CA0035018F /* HAAPIMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AF924EBF9CA0035018F /* HAAPIMethods.swift */; };
+		23453BB524EBF9CA0035018F /* HAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFA24EBF9CA0035018F /* HAConstants.swift */; };
+		23453BB624EBF9CA0035018F /* HAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFA24EBF9CA0035018F /* HAConstants.swift */; };
+		23453BB724EBF9CA0035018F /* HAConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFA24EBF9CA0035018F /* HAConstants.swift */; };
+		23453BB824EBF9CA0035018F /* HAResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFB24EBF9CA0035018F /* HAResponseCodes.swift */; };
+		23453BB924EBF9CA0035018F /* HAResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFB24EBF9CA0035018F /* HAResponseCodes.swift */; };
+		23453BBA24EBF9CA0035018F /* HAResponseCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFB24EBF9CA0035018F /* HAResponseCodes.swift */; };
+		23453BBB24EBF9CA0035018F /* HAEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFC24EBF9CA0035018F /* HAEnums.swift */; };
+		23453BBC24EBF9CA0035018F /* HAEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFC24EBF9CA0035018F /* HAEnums.swift */; };
+		23453BBD24EBF9CA0035018F /* HAEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFC24EBF9CA0035018F /* HAEnums.swift */; };
+		23453BBE24EBF9CA0035018F /* UIColor+HAColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFE24EBF9CA0035018F /* UIColor+HAColors.swift */; };
+		23453BBF24EBF9CA0035018F /* UIColor+HAColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFE24EBF9CA0035018F /* UIColor+HAColors.swift */; };
+		23453BC024EBF9CA0035018F /* UIColor+HAColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFE24EBF9CA0035018F /* UIColor+HAColors.swift */; };
+		23453BC124EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFF24EBF9CA0035018F /* UIFont+HAFonts.swift */; };
+		23453BC224EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFF24EBF9CA0035018F /* UIFont+HAFonts.swift */; };
+		23453BC324EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453AFF24EBF9CA0035018F /* UIFont+HAFonts.swift */; };
+		23453BF124EBF9CB0035018F /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1224EBF9CA0035018F /* CommonUtilities.swift */; };
+		23453BF224EBF9CB0035018F /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1224EBF9CA0035018F /* CommonUtilities.swift */; };
+		23453BF324EBF9CB0035018F /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1224EBF9CA0035018F /* CommonUtilities.swift */; };
+		23453BF424EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1324EBF9CA0035018F /* UIImage+FixOrientation.m */; };
+		23453BF524EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1324EBF9CA0035018F /* UIImage+FixOrientation.m */; };
+		23453BF624EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23453B1324EBF9CA0035018F /* UIImage+FixOrientation.m */; };
+		23453CE124EBF9CB0035018F /* HABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B6D24EBF9CA0035018F /* HABaseViewController.swift */; };
+		23453CE224EBF9CB0035018F /* HABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B6D24EBF9CA0035018F /* HABaseViewController.swift */; };
+		23453CE324EBF9CB0035018F /* HABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B6D24EBF9CA0035018F /* HABaseViewController.swift */; };
+		23453D5024EBF9CC0035018F /* HARadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9524EBF9CA0035018F /* HARadioButton.swift */; };
+		23453D5124EBF9CC0035018F /* HARadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9524EBF9CA0035018F /* HARadioButton.swift */; };
+		23453D5224EBF9CC0035018F /* HARadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9524EBF9CA0035018F /* HARadioButton.swift */; };
+		23453D5324EBF9CC0035018F /* HAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9624EBF9CA0035018F /* HAButton.swift */; };
+		23453D5424EBF9CC0035018F /* HAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9624EBF9CA0035018F /* HAButton.swift */; };
+		23453D5524EBF9CC0035018F /* HAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453B9624EBF9CA0035018F /* HAButton.swift */; };
+		23453D7424EBF9CC0035018F /* HATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BA724EBF9CA0035018F /* HATextField.swift */; };
+		23453D7524EBF9CC0035018F /* HATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BA724EBF9CA0035018F /* HATextField.swift */; };
+		23453D7624EBF9CC0035018F /* HATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BA724EBF9CA0035018F /* HATextField.swift */; };
+		23453D7A24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BAA24EBF9CA0035018F /* HAWebServiceHandler.swift */; };
+		23453D7B24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BAA24EBF9CA0035018F /* HAWebServiceHandler.swift */; };
+		23453D7C24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23453BAA24EBF9CA0035018F /* HAWebServiceHandler.swift */; };
 		23D1DE8624EA6A72008E2E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1DE8524EA6A72008E2E6B /* AppDelegate.swift */; };
 		23D1DE8824EA6A72008E2E6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1DE8724EA6A72008E2E6B /* SceneDelegate.swift */; };
 		23D1DE8A24EA6A72008E2E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1DE8924EA6A72008E2E6B /* ViewController.swift */; };
@@ -16,6 +63,9 @@
 		23D1DE9524EA6A74008E2E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D1DE9324EA6A74008E2E6B /* LaunchScreen.storyboard */; };
 		23D1DEA024EA6A74008E2E6B /* HealthNxtAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1DE9F24EA6A74008E2E6B /* HealthNxtAppTests.swift */; };
 		23D1DEAB24EA6A74008E2E6B /* HealthNxtAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D1DEAA24EA6A74008E2E6B /* HealthNxtAppUITests.swift */; };
+		56CA38D864BA7E4D1BD9F21E /* libPods-HealthNxtAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E3193540CF080BB3B4A4C9 /* libPods-HealthNxtAppTests.a */; };
+		D13B92BECBE07999E0C99A26 /* libPods-HealthNxtApp-HealthNxtAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3085FCBC488F4EC26BEA989 /* libPods-HealthNxtApp-HealthNxtAppUITests.a */; };
+		DC7CB02BAB16CB31C18EB174 /* libPods-HealthNxtApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 934CBFD61D87541E66D09695 /* libPods-HealthNxtApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +86,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6A49ED150F9932B44DB1A5 /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests/Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23453AEE24EA88CB0035018F /* HNLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNLoginViewController.swift; sourceTree = "<group>"; };
+		23453AF024EA89120035018F /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		23453AF624EBF9CA0035018F /* CustomBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBundle.swift; sourceTree = "<group>"; };
+		23453AF724EBF9CA0035018F /* NSBundle+Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+Language.swift"; sourceTree = "<group>"; };
+		23453AF924EBF9CA0035018F /* HAAPIMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAAPIMethods.swift; sourceTree = "<group>"; };
+		23453AFA24EBF9CA0035018F /* HAConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAConstants.swift; sourceTree = "<group>"; };
+		23453AFB24EBF9CA0035018F /* HAResponseCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAResponseCodes.swift; sourceTree = "<group>"; };
+		23453AFC24EBF9CA0035018F /* HAEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAEnums.swift; sourceTree = "<group>"; };
+		23453AFE24EBF9CA0035018F /* UIColor+HAColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HAColors.swift"; sourceTree = "<group>"; };
+		23453AFF24EBF9CA0035018F /* UIFont+HAFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+HAFonts.swift"; sourceTree = "<group>"; };
+		23453B1124EBF9CA0035018F /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		23453B1224EBF9CA0035018F /* CommonUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtilities.swift; sourceTree = "<group>"; };
+		23453B1324EBF9CA0035018F /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		23453B6D24EBF9CA0035018F /* HABaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HABaseViewController.swift; sourceTree = "<group>"; };
+		23453B9524EBF9CA0035018F /* HARadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HARadioButton.swift; sourceTree = "<group>"; };
+		23453B9624EBF9CA0035018F /* HAButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAButton.swift; sourceTree = "<group>"; };
+		23453BA724EBF9CA0035018F /* HATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HATextField.swift; sourceTree = "<group>"; };
+		23453BAA24EBF9CA0035018F /* HAWebServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HAWebServiceHandler.swift; sourceTree = "<group>"; };
 		23D1DE8224EA6A72008E2E6B /* HealthNxtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthNxtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D1DE8524EA6A72008E2E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D1DE8724EA6A72008E2E6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +120,14 @@
 		23D1DEA624EA6A74008E2E6B /* HealthNxtAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthNxtAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D1DEAA24EA6A74008E2E6B /* HealthNxtAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNxtAppUITests.swift; sourceTree = "<group>"; };
 		23D1DEAC24EA6A74008E2E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9E6B0575F7FF949D8EF680 /* Pods-HealthNxtApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtApp.debug.xcconfig"; path = "Target Support Files/Pods-HealthNxtApp/Pods-HealthNxtApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6743CAD1CBD094D1DC1B87FC /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests/Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		774DB3E2C58A95CBC8E968E4 /* Pods-HealthNxtAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HealthNxtAppTests/Pods-HealthNxtAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		78E3193540CF080BB3B4A4C9 /* libPods-HealthNxtAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthNxtAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934CBFD61D87541E66D09695 /* libPods-HealthNxtApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthNxtApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946EDA8A163B4688078901FB /* Pods-HealthNxtApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtApp.release.xcconfig"; path = "Target Support Files/Pods-HealthNxtApp/Pods-HealthNxtApp.release.xcconfig"; sourceTree = "<group>"; };
+		C3085FCBC488F4EC26BEA989 /* libPods-HealthNxtApp-HealthNxtAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HealthNxtApp-HealthNxtAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7B7A9F5167CF49E6610290 /* Pods-HealthNxtAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthNxtAppTests.release.xcconfig"; path = "Target Support Files/Pods-HealthNxtAppTests/Pods-HealthNxtAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7CB02BAB16CB31C18EB174 /* libPods-HealthNxtApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CA38D864BA7E4D1BD9F21E /* libPods-HealthNxtAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +151,219 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13B92BECBE07999E0C99A26 /* libPods-HealthNxtApp-HealthNxtAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23453AF224EBF9CA0035018F /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		23453AF324EBF9CA0035018F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		23453AF424EBF9CA0035018F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23453AF524EBF9CA0035018F /* LocalizedClasses */,
+				23453AF824EBF9CA0035018F /* Constants */,
+				23453AFD24EBF9CA0035018F /* AppThemes */,
+				23453B0024EBF9CA0035018F /* Models */,
+				23453B0F24EBF9CA0035018F /* Utilities */,
+				23453B1424EBF9CA0035018F /* ViewControllers */,
+				23453B6A24EBF9CA0035018F /* BaseViewControllers */,
+				23453B7024EBF9CA0035018F /* Views */,
+				23453BA824EBF9CA0035018F /* Handlers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23453AF524EBF9CA0035018F /* LocalizedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				23453AF624EBF9CA0035018F /* CustomBundle.swift */,
+				23453AF724EBF9CA0035018F /* NSBundle+Language.swift */,
+			);
+			path = LocalizedClasses;
+			sourceTree = "<group>";
+		};
+		23453AF824EBF9CA0035018F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				23453AF924EBF9CA0035018F /* HAAPIMethods.swift */,
+				23453AFA24EBF9CA0035018F /* HAConstants.swift */,
+				23453AFB24EBF9CA0035018F /* HAResponseCodes.swift */,
+				23453AFC24EBF9CA0035018F /* HAEnums.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		23453AFD24EBF9CA0035018F /* AppThemes */ = {
+			isa = PBXGroup;
+			children = (
+				23453AFE24EBF9CA0035018F /* UIColor+HAColors.swift */,
+				23453AFF24EBF9CA0035018F /* UIFont+HAFonts.swift */,
+			);
+			path = AppThemes;
+			sourceTree = "<group>";
+		};
+		23453B0024EBF9CA0035018F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23453B0F24EBF9CA0035018F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				23453B1124EBF9CA0035018F /* UIImage+FixOrientation.h */,
+				23453B1224EBF9CA0035018F /* CommonUtilities.swift */,
+				23453B1324EBF9CA0035018F /* UIImage+FixOrientation.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		23453B1424EBF9CA0035018F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23453D7D24EBFF5A0035018F /* Registration */,
+				23453B2224EBF9CA0035018F /* Splash */,
+				23453B5024EBF9CA0035018F /* Login */,
+				23453B1524EBF9CA0035018F /* Appointment */,
+				23453B4D24EBF9CA0035018F /* Notifications */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23453B1524EBF9CA0035018F /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		23453B2224EBF9CA0035018F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		23453B4D24EBF9CA0035018F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		23453B5024EBF9CA0035018F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				23453AEE24EA88CB0035018F /* HNLoginViewController.swift */,
+				23453AF024EA89120035018F /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		23453B6A24EBF9CA0035018F /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23453B6D24EBF9CA0035018F /* HABaseViewController.swift */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		23453B7024EBF9CA0035018F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23453B7124EBF9CA0035018F /* CustomTableViewCells */,
+				23453B9424EBF9CA0035018F /* CustomButtons */,
+				23453B9724EBF9CA0035018F /* CustomLabels */,
+				23453B9A24EBF9CA0035018F /* CustomViews */,
+				23453BA124EBF9CA0035018F /* CustomTableView */,
+				23453BA624EBF9CA0035018F /* CustomTextField */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23453B7124EBF9CA0035018F /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		23453B9424EBF9CA0035018F /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				23453B9524EBF9CA0035018F /* HARadioButton.swift */,
+				23453B9624EBF9CA0035018F /* HAButton.swift */,
+			);
+			path = CustomButtons;
+			sourceTree = "<group>";
+		};
+		23453B9724EBF9CA0035018F /* CustomLabels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomLabels;
+			sourceTree = "<group>";
+		};
+		23453B9A24EBF9CA0035018F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		23453BA124EBF9CA0035018F /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTableView;
+			sourceTree = "<group>";
+		};
+		23453BA624EBF9CA0035018F /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				23453BA724EBF9CA0035018F /* HATextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		23453BA824EBF9CA0035018F /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				23453BAA24EBF9CA0035018F /* HAWebServiceHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		23453BAB24EBF9CA0035018F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		23453D7D24EBFF5A0035018F /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		23D1DE7924EA6A72008E2E6B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +371,8 @@
 				23D1DE9E24EA6A74008E2E6B /* HealthNxtAppTests */,
 				23D1DEA924EA6A74008E2E6B /* HealthNxtAppUITests */,
 				23D1DE8324EA6A72008E2E6B /* Products */,
+				847A7D8CDD6798DEF62DF824 /* Pods */,
+				B4C919BD97E5B17AF753FC5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +397,10 @@
 				23D1DE9324EA6A74008E2E6B /* LaunchScreen.storyboard */,
 				23D1DE9624EA6A74008E2E6B /* Info.plist */,
 				23D1DE8E24EA6A72008E2E6B /* HealthNxtApp.xcdatamodeld */,
+				23453AF424EBF9CA0035018F /* Classes */,
+				23453AF224EBF9CA0035018F /* Supporting Classes */,
+				23453AF324EBF9CA0035018F /* SupportingFiles */,
+				23453BAB24EBF9CA0035018F /* Vendors */,
 			);
 			path = HealthNxtApp;
 			sourceTree = "<group>";
@@ -131,6 +423,29 @@
 			path = HealthNxtAppUITests;
 			sourceTree = "<group>";
 		};
+		847A7D8CDD6798DEF62DF824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E9E6B0575F7FF949D8EF680 /* Pods-HealthNxtApp.debug.xcconfig */,
+				946EDA8A163B4688078901FB /* Pods-HealthNxtApp.release.xcconfig */,
+				6743CAD1CBD094D1DC1B87FC /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */,
+				1D6A49ED150F9932B44DB1A5 /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */,
+				774DB3E2C58A95CBC8E968E4 /* Pods-HealthNxtAppTests.debug.xcconfig */,
+				CC7B7A9F5167CF49E6610290 /* Pods-HealthNxtAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4C919BD97E5B17AF753FC5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934CBFD61D87541E66D09695 /* libPods-HealthNxtApp.a */,
+				C3085FCBC488F4EC26BEA989 /* libPods-HealthNxtApp-HealthNxtAppUITests.a */,
+				78E3193540CF080BB3B4A4C9 /* libPods-HealthNxtAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +453,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D1DEAF24EA6A74008E2E6B /* Build configuration list for PBXNativeTarget "HealthNxtApp" */;
 			buildPhases = (
+				15FDD23AC4AF886DA53E5755 /* [CP] Check Pods Manifest.lock */,
 				23D1DE7E24EA6A72008E2E6B /* Sources */,
 				23D1DE7F24EA6A72008E2E6B /* Frameworks */,
 				23D1DE8024EA6A72008E2E6B /* Resources */,
+				F9A6EFC0C1487D0C0D7C4DD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +472,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D1DEB224EA6A74008E2E6B /* Build configuration list for PBXNativeTarget "HealthNxtAppTests" */;
 			buildPhases = (
+				2460894E9EC20CB8DDEE2EEE /* [CP] Check Pods Manifest.lock */,
 				23D1DE9724EA6A74008E2E6B /* Sources */,
 				23D1DE9824EA6A74008E2E6B /* Frameworks */,
 				23D1DE9924EA6A74008E2E6B /* Resources */,
@@ -173,9 +491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23D1DEB524EA6A74008E2E6B /* Build configuration list for PBXNativeTarget "HealthNxtAppUITests" */;
 			buildPhases = (
+				50132AE7DE9C53D5EF533D65 /* [CP] Check Pods Manifest.lock */,
 				23D1DEA224EA6A74008E2E6B /* Sources */,
 				23D1DEA324EA6A74008E2E6B /* Frameworks */,
 				23D1DEA424EA6A74008E2E6B /* Resources */,
+				0391A7FDD0BE31902960EBAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +555,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23453AF124EA89120035018F /* Login.storyboard in Resources */,
 				23D1DE9524EA6A74008E2E6B /* LaunchScreen.storyboard in Resources */,
 				23D1DE9224EA6A74008E2E6B /* Assets.xcassets in Resources */,
 				23D1DE8D24EA6A72008E2E6B /* Main.storyboard in Resources */,
@@ -257,15 +578,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0391A7FDD0BE31902960EBAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests/Pods-HealthNxtApp-HealthNxtAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests/Pods-HealthNxtApp-HealthNxtAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests/Pods-HealthNxtApp-HealthNxtAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15FDD23AC4AF886DA53E5755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthNxtApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2460894E9EC20CB8DDEE2EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthNxtAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50132AE7DE9C53D5EF533D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthNxtApp-HealthNxtAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A6EFC0C1487D0C0D7C4DD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp/Pods-HealthNxtApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp/Pods-HealthNxtApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthNxtApp/Pods-HealthNxtApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23D1DE7E24EA6A72008E2E6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23453BB824EBF9CA0035018F /* HAResponseCodes.swift in Sources */,
+				23453BB524EBF9CA0035018F /* HAConstants.swift in Sources */,
+				23453BAF24EBF9CA0035018F /* NSBundle+Language.swift in Sources */,
 				23D1DE8A24EA6A72008E2E6B /* ViewController.swift in Sources */,
+				23453D5324EBF9CC0035018F /* HAButton.swift in Sources */,
+				23453BF124EBF9CB0035018F /* CommonUtilities.swift in Sources */,
+				23453CE124EBF9CB0035018F /* HABaseViewController.swift in Sources */,
 				23D1DE8624EA6A72008E2E6B /* AppDelegate.swift in Sources */,
 				23D1DE9024EA6A72008E2E6B /* HealthNxtApp.xcdatamodeld in Sources */,
+				23453D7A24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */,
+				23453D5024EBF9CC0035018F /* HARadioButton.swift in Sources */,
+				23453BB224EBF9CA0035018F /* HAAPIMethods.swift in Sources */,
+				23453BBB24EBF9CA0035018F /* HAEnums.swift in Sources */,
+				23453BBE24EBF9CA0035018F /* UIColor+HAColors.swift in Sources */,
 				23D1DE8824EA6A72008E2E6B /* SceneDelegate.swift in Sources */,
+				23453BAC24EBF9CA0035018F /* CustomBundle.swift in Sources */,
+				23453BC124EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */,
+				23453AEF24EA88CB0035018F /* HNLoginViewController.swift in Sources */,
+				23453D7424EBF9CC0035018F /* HATextField.swift in Sources */,
+				23453BF424EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +713,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23453BC224EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */,
+				23453D5424EBF9CC0035018F /* HAButton.swift in Sources */,
+				23453BB324EBF9CA0035018F /* HAAPIMethods.swift in Sources */,
+				23453BAD24EBF9CA0035018F /* CustomBundle.swift in Sources */,
+				23453BB924EBF9CA0035018F /* HAResponseCodes.swift in Sources */,
+				23453D7B24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */,
+				23453BB624EBF9CA0035018F /* HAConstants.swift in Sources */,
+				23453BBF24EBF9CA0035018F /* UIColor+HAColors.swift in Sources */,
+				23453D7524EBF9CC0035018F /* HATextField.swift in Sources */,
+				23453CE224EBF9CB0035018F /* HABaseViewController.swift in Sources */,
+				23453BF524EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */,
 				23D1DEA024EA6A74008E2E6B /* HealthNxtAppTests.swift in Sources */,
+				23453D5124EBF9CC0035018F /* HARadioButton.swift in Sources */,
+				23453BBC24EBF9CA0035018F /* HAEnums.swift in Sources */,
+				23453BB024EBF9CA0035018F /* NSBundle+Language.swift in Sources */,
+				23453BF224EBF9CB0035018F /* CommonUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +736,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23453BC324EBF9CA0035018F /* UIFont+HAFonts.swift in Sources */,
+				23453D5524EBF9CC0035018F /* HAButton.swift in Sources */,
+				23453BB424EBF9CA0035018F /* HAAPIMethods.swift in Sources */,
+				23453BAE24EBF9CA0035018F /* CustomBundle.swift in Sources */,
+				23453BBA24EBF9CA0035018F /* HAResponseCodes.swift in Sources */,
+				23453D7C24EBF9CC0035018F /* HAWebServiceHandler.swift in Sources */,
+				23453BB724EBF9CA0035018F /* HAConstants.swift in Sources */,
+				23453BC024EBF9CA0035018F /* UIColor+HAColors.swift in Sources */,
+				23453D7624EBF9CC0035018F /* HATextField.swift in Sources */,
+				23453CE324EBF9CB0035018F /* HABaseViewController.swift in Sources */,
+				23453BF624EBF9CB0035018F /* UIImage+FixOrientation.m in Sources */,
 				23D1DEAB24EA6A74008E2E6B /* HealthNxtAppUITests.swift in Sources */,
+				23453D5224EBF9CC0035018F /* HARadioButton.swift in Sources */,
+				23453BBD24EBF9CA0035018F /* HAEnums.swift in Sources */,
+				23453BB124EBF9CA0035018F /* NSBundle+Language.swift in Sources */,
+				23453BF324EBF9CB0035018F /* CommonUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +906,7 @@
 		};
 		23D1DEB024EA6A74008E2E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9E6B0575F7FF949D8EF680 /* Pods-HealthNxtApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +924,7 @@
 		};
 		23D1DEB124EA6A74008E2E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946EDA8A163B4688078901FB /* Pods-HealthNxtApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +942,7 @@
 		};
 		23D1DEB324EA6A74008E2E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774DB3E2C58A95CBC8E968E4 /* Pods-HealthNxtAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +964,7 @@
 		};
 		23D1DEB424EA6A74008E2E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7B7A9F5167CF49E6610290 /* Pods-HealthNxtAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +986,7 @@
 		};
 		23D1DEB624EA6A74008E2E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6743CAD1CBD094D1DC1B87FC /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +1006,7 @@
 		};
 		23D1DEB724EA6A74008E2E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6A49ED150F9932B44DB1A5 /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

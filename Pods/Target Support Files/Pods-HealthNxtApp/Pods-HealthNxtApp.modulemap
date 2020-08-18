@@ -1,0 +1,6 @@
+framework module Pods_HealthNxtApp {
+  umbrella header "Pods-HealthNxtApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

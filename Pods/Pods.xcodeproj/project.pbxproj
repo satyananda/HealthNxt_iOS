@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069F24AA91DB2BB2A7B7B321D3E9922B /* Pods-HealthNxtApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C7FA7EF2282D26B4D1F1AB7A12EF5 /* Pods-HealthNxtApp-dummy.m */; };
+		1BF4D9DCF2C605B882B70DA9ED9C7BE0 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCB51EFDEF0411284A01F5BB485C812 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DF4DE545080F22C7595F642D21BF0A8 /* Pods-HealthNxtAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC06F7A648C4D6780DA946AEFECCDD42 /* Pods-HealthNxtAppTests-dummy.m */; };
+		744246E6F5F15981E85D0A41A293395F /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEE7CC2ECAB7ECCC374596751C202EF /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F4CC2D7D779CDAF51E0F212F6EB02CC /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CA5F3E00A423D3D1D86A8C48BA3E9 /* SAMKeychain-dummy.m */; };
+		9F4DCB226BC33C4C6C57AE41DA6681AA /* Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021C6B528D9F79C046AB1BB6A1D648CF /* Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m */; };
+		A02282564A2A10159E47D9AC3798A281 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFB50B77889A4066CB07C3544BCE8EF /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C564C8D042998164475E13AD54B0A294 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B30B204CCB6973086E4C18D48A82099 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7FD66D3D320095B45AD9D39EF1B858B /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2A5BAEB0E70FBEB9AE1AA9ED2ED193 /* MBProgressHUD-dummy.m */; };
+		D6438BA4F863AE0A7891F212EE3C06D0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AF51876CF59A22936862BC4B9CC413 /* MBProgressHUD.m */; };
+		EE699D5C5B11847A8803192E5EFB8C81 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C818F1553AD26242B6E874700EDFF3C /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C9A595C793348CD1A631CD78F381292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		7A006102D4207DFB2A601F833FD48454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		8F887D98D9B794E8C44BFB16ADD57A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		A826E58BCD696A2CCC4C74452D469F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E6641B81C93099677125D24F510842;
+			remoteInfo = "Pods-HealthNxtApp";
+		};
+		DFF41D29D7DC188F7F4385CC0DBF2D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021C6B528D9F79C046AB1BB6A1D648CF /* Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m"; sourceTree = "<group>"; };
+		024C7FA7EF2282D26B4D1F1AB7A12EF5 /* Pods-HealthNxtApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthNxtApp-dummy.m"; sourceTree = "<group>"; };
+		0B30B204CCB6973086E4C18D48A82099 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		10F4F50D0869F4872C2975D0CB37AA19 /* Pods-HealthNxtApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtApp.debug.xcconfig"; sourceTree = "<group>"; };
+		11C7535ABEDD1EC3E1C1DA2224DC73A3 /* Pods-HealthNxtAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		178471A662ECC522B1A1790771A71986 /* SAMKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.debug.xcconfig; sourceTree = "<group>"; };
+		1B868C8DF9C2F9DF865BC0F0D527A916 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		1DFC39A97CD7587006FFB230D1236104 /* SAMKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.release.xcconfig; sourceTree = "<group>"; };
+		2025421EEBE0EF86287A4A8209673D1C /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		2C818F1553AD26242B6E874700EDFF3C /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		38D2E2290ED598545CA8074DA8656397 /* Pods-HealthNxtApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthNxtApp-resources.sh"; sourceTree = "<group>"; };
+		3B55B2B72E7BDD963BA4962E229854BB /* libPods-HealthNxtApp-HealthNxtAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HealthNxtApp-HealthNxtAppUITests.a"; path = "libPods-HealthNxtApp-HealthNxtAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		447B6EC7135D01FF9414EB4E0BCED7B4 /* Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AEE7CC2ECAB7ECCC374596751C202EF /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		56D1E350F5B56C7A46D6FB9CD113BF93 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76839F425B258FF7EC5F6C797584F8F7 /* Pods-HealthNxtApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthNxtApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB7F827267948882EF54B45F2DE9670 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8EFB50B77889A4066CB07C3544BCE8EF /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		9C8A90908123CA7B27FF411CBC88A65F /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C9719CF3C68F9739047C4529B77F409 /* Pods-HealthNxtAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthNxtAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A56FA97B8D22ED2CAA56A2D4E713F16B /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3649CAC8CE6EF83A6BD20290877737E /* libPods-HealthNxtAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HealthNxtAppTests.a"; path = "libPods-HealthNxtAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39BE5581AEA8B2D51494CB8F4A22B59 /* Pods-HealthNxtAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE2A5BAEB0E70FBEB9AE1AA9ED2ED193 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		CB79D504A3C7D7A2C22CD2D05C9A2B49 /* Pods-HealthNxtAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthNxtAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCCB51EFDEF0411284A01F5BB485C812 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		CD4CA5F3E00A423D3D1D86A8C48BA3E9 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		D6AF51876CF59A22936862BC4B9CC413 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D87B9EA48AA5AE9D95F9877EB5CFCDA5 /* libPods-HealthNxtApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HealthNxtApp.a"; path = "libPods-HealthNxtApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06F7A648C4D6780DA946AEFECCDD42 /* Pods-HealthNxtAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthNxtAppTests-dummy.m"; sourceTree = "<group>"; };
+		E441D4D48B7DA1936473D8927DA79E6E /* Pods-HealthNxtApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthNxtApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED91C152B61A5A0BBD957656750298BA /* Pods-HealthNxtApp-HealthNxtAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthNxtApp-HealthNxtAppUITests-resources.sh"; sourceTree = "<group>"; };
+		F814B80AAD48BE3173C51B1E3A50D834 /* Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA61EA5AD79D2AAFDD03D5EEBA2AF9BC /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		FB8D5E1B030F3EDFD00B9131F98F3602 /* Pods-HealthNxtApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthNxtApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2982608F09DD6F1F460DE6256D369BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B6C5147A003B1BF701599B36686B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A4795AB986FCB3349C89D247503D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64259458E3491090D4888B3D231E737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCBC7FE987FB53FBB71A9E7155D9E871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D1CA4D0263AB739A8C0F117518FB9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CA5F3E00A423D3D1D86A8C48BA3E9 /* SAMKeychain-dummy.m */,
+				56D1E350F5B56C7A46D6FB9CD113BF93 /* SAMKeychain-prefix.pch */,
+				178471A662ECC522B1A1790771A71986 /* SAMKeychain.debug.xcconfig */,
+				1DFC39A97CD7587006FFB230D1236104 /* SAMKeychain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		088F72E036F209B9BAD23710E2ECBD87 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				CCCB51EFDEF0411284A01F5BB485C812 /* SAMKeychain.h */,
+				2C818F1553AD26242B6E874700EDFF3C /* SAMKeychain.m */,
+				8EFB50B77889A4066CB07C3544BCE8EF /* SAMKeychainQuery.h */,
+				4AEE7CC2ECAB7ECCC374596751C202EF /* SAMKeychainQuery.m */,
+				19C084482BDC7FF011259867AF81AC60 /* Resources */,
+				05D1CA4D0263AB739A8C0F117518FB9B /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		19C084482BDC7FF011259867AF81AC60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B868C8DF9C2F9DF865BC0F0D527A916 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1BC4AF64946D951267855FD3FD658CD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE20281ABF56676418EF88A55330047 /* MBProgressHUD */,
+				088F72E036F209B9BAD23710E2ECBD87 /* SAMKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		375139A93F5F7287C538D8AAD7CA7062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */,
+				D87B9EA48AA5AE9D95F9877EB5CFCDA5 /* libPods-HealthNxtApp.a */,
+				3B55B2B72E7BDD963BA4962E229854BB /* libPods-HealthNxtApp-HealthNxtAppUITests.a */,
+				B3649CAC8CE6EF83A6BD20290877737E /* libPods-HealthNxtAppTests.a */,
+				612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE20281ABF56676418EF88A55330047 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0B30B204CCB6973086E4C18D48A82099 /* MBProgressHUD.h */,
+				D6AF51876CF59A22936862BC4B9CC413 /* MBProgressHUD.m */,
+				A1D6F726F9A52B0AA5F1E4772C71C194 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5BD8381D1016C79799BB116A61C083D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE772E034C876EAEEFFE5D9FD54944F3 /* Pods-HealthNxtApp */,
+				F7F1D104D3240F07E08224ABC62AF1C2 /* Pods-HealthNxtApp-HealthNxtAppUITests */,
+				DDE4FA4C46FAF045BDB128505119B354 /* Pods-HealthNxtAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1D6F726F9A52B0AA5F1E4772C71C194 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A5BAEB0E70FBEB9AE1AA9ED2ED193 /* MBProgressHUD-dummy.m */,
+				8DB7F827267948882EF54B45F2DE9670 /* MBProgressHUD-prefix.pch */,
+				2025421EEBE0EF86287A4A8209673D1C /* MBProgressHUD.debug.xcconfig */,
+				FA61EA5AD79D2AAFDD03D5EEBA2AF9BC /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1BC4AF64946D951267855FD3FD658CD0 /* Pods */,
+				375139A93F5F7287C538D8AAD7CA7062 /* Products */,
+				5BD8381D1016C79799BB116A61C083D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE4FA4C46FAF045BDB128505119B354 /* Pods-HealthNxtAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9719CF3C68F9739047C4529B77F409 /* Pods-HealthNxtAppTests-acknowledgements.markdown */,
+				CB79D504A3C7D7A2C22CD2D05C9A2B49 /* Pods-HealthNxtAppTests-acknowledgements.plist */,
+				DC06F7A648C4D6780DA946AEFECCDD42 /* Pods-HealthNxtAppTests-dummy.m */,
+				11C7535ABEDD1EC3E1C1DA2224DC73A3 /* Pods-HealthNxtAppTests.debug.xcconfig */,
+				B39BE5581AEA8B2D51494CB8F4A22B59 /* Pods-HealthNxtAppTests.release.xcconfig */,
+			);
+			name = "Pods-HealthNxtAppTests";
+			path = "Target Support Files/Pods-HealthNxtAppTests";
+			sourceTree = "<group>";
+		};
+		DE772E034C876EAEEFFE5D9FD54944F3 /* Pods-HealthNxtApp */ = {
+			isa = PBXGroup;
+			children = (
+				76839F425B258FF7EC5F6C797584F8F7 /* Pods-HealthNxtApp-acknowledgements.markdown */,
+				E441D4D48B7DA1936473D8927DA79E6E /* Pods-HealthNxtApp-acknowledgements.plist */,
+				024C7FA7EF2282D26B4D1F1AB7A12EF5 /* Pods-HealthNxtApp-dummy.m */,
+				38D2E2290ED598545CA8074DA8656397 /* Pods-HealthNxtApp-resources.sh */,
+				10F4F50D0869F4872C2975D0CB37AA19 /* Pods-HealthNxtApp.debug.xcconfig */,
+				FB8D5E1B030F3EDFD00B9131F98F3602 /* Pods-HealthNxtApp.release.xcconfig */,
+			);
+			name = "Pods-HealthNxtApp";
+			path = "Target Support Files/Pods-HealthNxtApp";
+			sourceTree = "<group>";
+		};
+		F7F1D104D3240F07E08224ABC62AF1C2 /* Pods-HealthNxtApp-HealthNxtAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				447B6EC7135D01FF9414EB4E0BCED7B4 /* Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.markdown */,
+				F814B80AAD48BE3173C51B1E3A50D834 /* Pods-HealthNxtApp-HealthNxtAppUITests-acknowledgements.plist */,
+				021C6B528D9F79C046AB1BB6A1D648CF /* Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m */,
+				ED91C152B61A5A0BBD957656750298BA /* Pods-HealthNxtApp-HealthNxtAppUITests-resources.sh */,
+				A56FA97B8D22ED2CAA56A2D4E713F16B /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */,
+				9C8A90908123CA7B27FF411CBC88A65F /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HealthNxtApp-HealthNxtAppUITests";
+			path = "Target Support Files/Pods-HealthNxtApp-HealthNxtAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11C56EDAAD08CDF4F42A7DD18E9845BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40149BDA73722FBA59DA196C65C3F695 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F46B5EAF7354D7D83FA4ECD7DDF8B78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF4D9DCF2C605B882B70DA9ED9C7BE0 /* SAMKeychain.h in Headers */,
+				A02282564A2A10159E47D9AC3798A281 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A45C67A59D86EF37E0D6D847EB8037C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69A1D7D9933B5C2BFB41B06C24EC219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C564C8D042998164475E13AD54B0A294 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		361090375165B142E9CFF6EF10ECF541 /* Pods-HealthNxtAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22702D3A8A7CE68318D69FD3F08D35D0 /* Build configuration list for PBXNativeTarget "Pods-HealthNxtAppTests" */;
+			buildPhases = (
+				11C56EDAAD08CDF4F42A7DD18E9845BB /* Headers */,
+				A4C4F907FCF997953296CDAE82AE96B6 /* Sources */,
+				69B6C5147A003B1BF701599B36686B64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43867891BE925EFFAE983D624F38B62C /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthNxtAppTests";
+			productName = "Pods-HealthNxtAppTests";
+			productReference = B3649CAC8CE6EF83A6BD20290877737E /* libPods-HealthNxtAppTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43E6641B81C93099677125D24F510842 /* Pods-HealthNxtApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93F154A8623948E6611EE2B9B876943 /* Build configuration list for PBXNativeTarget "Pods-HealthNxtApp" */;
+			buildPhases = (
+				40149BDA73722FBA59DA196C65C3F695 /* Headers */,
+				B22FF389272D521D9F3A2C51CAE74A6B /* Sources */,
+				A4A4795AB986FCB3349C89D247503D99 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B43820AB8713777EE29402B7155EA3 /* PBXTargetDependency */,
+				E7271BD8C3F5D95D1FD7ACAE9403F59C /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthNxtApp";
+			productName = "Pods-HealthNxtApp";
+			productReference = D87B9EA48AA5AE9D95F9877EB5CFCDA5 /* libPods-HealthNxtApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E9588118811AB05EBECC8C49A3054C /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				5F46B5EAF7354D7D83FA4ECD7DDF8B78 /* Headers */,
+				4224D40B8A4B8FB2484C8CF93363C65C /* Sources */,
+				C64259458E3491090D4888B3D231E737 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* libSAMKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20217F7F18136BEC6503B8147352D3E3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				F69A1D7D9933B5C2BFB41B06C24EC219 /* Headers */,
+				12490B6EBA14F6030F9CBD9575807097 /* Sources */,
+				DCBC7FE987FB53FBB71A9E7155D9E871 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FABF4E0F57CCC362A650E8B9DFC8CBE2 /* Pods-HealthNxtApp-HealthNxtAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386062B1E277B537FBD9756D347E40ED /* Build configuration list for PBXNativeTarget "Pods-HealthNxtApp-HealthNxtAppUITests" */;
+			buildPhases = (
+				6A45C67A59D86EF37E0D6D847EB8037C /* Headers */,
+				909F70BA40B765495ED66194DF8D9896 /* Sources */,
+				2982608F09DD6F1F460DE6256D369BA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E369C6C7AA02E6883698290B0EC476 /* PBXTargetDependency */,
+				6EFF0E981984951DF864A3597D874133 /* PBXTargetDependency */,
+			);
+			name = "Pods-HealthNxtApp-HealthNxtAppUITests";
+			productName = "Pods-HealthNxtApp-HealthNxtAppUITests";
+			productReference = 3B55B2B72E7BDD963BA4962E229854BB /* libPods-HealthNxtApp-HealthNxtAppUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 375139A93F5F7287C538D8AAD7CA7062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				43E6641B81C93099677125D24F510842 /* Pods-HealthNxtApp */,
+				FABF4E0F57CCC362A650E8B9DFC8CBE2 /* Pods-HealthNxtApp-HealthNxtAppUITests */,
+				361090375165B142E9CFF6EF10ECF541 /* Pods-HealthNxtAppTests */,
+				5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12490B6EBA14F6030F9CBD9575807097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FD66D3D320095B45AD9D39EF1B858B /* MBProgressHUD-dummy.m in Sources */,
+				D6438BA4F863AE0A7891F212EE3C06D0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4224D40B8A4B8FB2484C8CF93363C65C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4CC2D7D779CDAF51E0F212F6EB02CC /* SAMKeychain-dummy.m in Sources */,
+				EE699D5C5B11847A8803192E5EFB8C81 /* SAMKeychain.m in Sources */,
+				744246E6F5F15981E85D0A41A293395F /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909F70BA40B765495ED66194DF8D9896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4DCB226BC33C4C6C57AE41DA6681AA /* Pods-HealthNxtApp-HealthNxtAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C4F907FCF997953296CDAE82AE96B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF4DE545080F22C7595F642D21BF0A8 /* Pods-HealthNxtAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22FF389272D521D9F3A2C51CAE74A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069F24AA91DB2BB2A7B7B321D3E9922B /* Pods-HealthNxtApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43867891BE925EFFAE983D624F38B62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HealthNxtApp";
+			target = 43E6641B81C93099677125D24F510842 /* Pods-HealthNxtApp */;
+			targetProxy = A826E58BCD696A2CCC4C74452D469F2E /* PBXContainerItemProxy */;
+		};
+		6EFF0E981984951DF864A3597D874133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 5C9A595C793348CD1A631CD78F381292 /* PBXContainerItemProxy */;
+		};
+		C1B43820AB8713777EE29402B7155EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 8F887D98D9B794E8C44BFB16ADD57A98 /* PBXContainerItemProxy */;
+		};
+		C9E369C6C7AA02E6883698290B0EC476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 7A006102D4207DFB2A601F833FD48454 /* PBXContainerItemProxy */;
+		};
+		E7271BD8C3F5D95D1FD7ACAE9403F59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = DFF41D29D7DC188F7F4385CC0DBF2D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E9DAF8A0BF314E244DFBB0CB08A6A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8A90908123CA7B27FF411CBC88A65F /* Pods-HealthNxtApp-HealthNxtAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272C5BA91F18D34A8C2BFD885DE58EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56FA97B8D22ED2CAA56A2D4E713F16B /* Pods-HealthNxtApp-HealthNxtAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D8C7AACA8F6936B345172F486B32CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C7535ABEDD1EC3E1C1DA2224DC73A3 /* Pods-HealthNxtAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F033D3DE912ED6DD4DBAB7F638C2582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA61EA5AD79D2AAFDD03D5EEBA2AF9BC /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C30C77B2EBD15473CB1E0FF521ED92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2025421EEBE0EF86287A4A8209673D1C /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBBA83B1BA20CD37330E32AEB13D6FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFC39A97CD7587006FFB230D1236104 /* SAMKeychain.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21CD28745292CFA902F0EA7CBA637B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F4F50D0869F4872C2975D0CB37AA19 /* Pods-HealthNxtApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D810226BF71DB7C7A3150CC71F5D2F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8D5E1B030F3EDFD00B9131F98F3602 /* Pods-HealthNxtApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F2BE8516A05573A1F8C9132691EB01C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178471A662ECC522B1A1790771A71986 /* SAMKeychain.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC92B016C15DA9698ABA57E69C9088C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39BE5581AEA8B2D51494CB8F4A22B59 /* Pods-HealthNxtAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20217F7F18136BEC6503B8147352D3E3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C30C77B2EBD15473CB1E0FF521ED92 /* Debug */,
+				9F033D3DE912ED6DD4DBAB7F638C2582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22702D3A8A7CE68318D69FD3F08D35D0 /* Build configuration list for PBXNativeTarget "Pods-HealthNxtAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8C7AACA8F6936B345172F486B32CDE /* Debug */,
+				FC92B016C15DA9698ABA57E69C9088C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386062B1E277B537FBD9756D347E40ED /* Build configuration list for PBXNativeTarget "Pods-HealthNxtApp-HealthNxtAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272C5BA91F18D34A8C2BFD885DE58EB2 /* Debug */,
+				1E9DAF8A0BF314E244DFBB0CB08A6A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E9588118811AB05EBECC8C49A3054C /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BE8516A05573A1F8C9132691EB01C4 /* Debug */,
+				BBBA83B1BA20CD37330E32AEB13D6FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93F154A8623948E6611EE2B9B876943 /* Build configuration list for PBXNativeTarget "Pods-HealthNxtApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21CD28745292CFA902F0EA7CBA637B4 /* Debug */,
+				D810226BF71DB7C7A3150CC71F5D2F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
